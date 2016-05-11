@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*****************
+     General
+******************/
+
+html{
+	box-sizing : border-box;	
+
+}*,*:before, *:after{
+	box-sizing : inherit;	
+}
+
+body{
+	margin : 0px;
+	padding : 0px;	
+}
+
+div#container{
+	width : 960px;
+	margin : 0 auto;	
+}
+
+h1,h2,h3,h4,table,tr,td,th{
+	padding : 0px;
+	margin : 0px;	
+}
+
+/******************
+	Header
+******************/
+
+header{
+	background-color : navy;	
+	padding:5px;
+	box-shadow : 5px 5px 5px silver;
+}
+
+header h1, header h2{
+	text-align:center;
+	color : beige;
+	padding : 3px;
+}
+
+/******************
+	Table
+******************/
+
+table{
+	margin-top : 35px;	
+}
+
+td{
+   padding : 20px;	
+   border-bottom : 1px solid gray;
+   border-left : 1px solid gray;
+}
+
+td:hover{
+   background-color : black;
+   opacity : 0.9;	
+}
+
+td:hover h4,td:hover h3,td:hover .totalCost, td:hover .quantity{
+	color : #fff;	
+}
+/*******************
+   Product Title
+*******************/
+
+h4{
+	text-align : center;
+	letter-spacing :1.2px;	
+}
+
+/******************
+    Images
+*******************/
+
+img{
+	width : 250px;
+	height : 250px;	
+	padding : 10px;
+	padding-left : 25px;
+}
+
+/*****************
+	Buttons
+******************/
+
+button{
+	margin-top : 6px;	
+	cursor : pointer;
+}
+
+button.add{
+	margin-left : 26%;
+	padding : 4px 8px;
+	background : linear-gradient(#063,#0C3,#093);
+	color:beige;
+}
+
+button.remove{
+	margin-left : 10px; 
+	padding : 4px 8px;
+	background : linear-gradient(#900,#F06,#F00);
+	color:beige;
+}
+
+button.buy{
+	margin-top : 9px;
+	padding : 8px 16px;
+	background : linear-gradient(#006,#00C,#009);
+	color:beige;
+}
+
+/***********************
+	Quantity/Total Cost
+************************/
+
+h3{
+	margin-top : 10px;	
+	margin-left : 33%;
+}
+
+.quantity, .totalCost{
+	width : 35px;
+	height : 28px;
+	margin : 0px;
+	margin-top : 6px;
+	margin-left : 40%;
+	padding-top:7px;
+	border : 1px solid gray;
+	border-radius : 6px;
+	color : maroon;
+	text-align : center;
+	font-weight : bold;
+}
+
+.totalCost{
+	width : 75px;
+	height : 30px;
+	margin-left : 35%;
+}
+
+
+
+
